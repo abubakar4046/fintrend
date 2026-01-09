@@ -1,0 +1,24 @@
+{
+  "feature_cols": [
+    "avg_sentiment",
+    "sentiment_lag1",
+    "sentiment_lag2",
+    "sentiment_lag3",
+    "sentiment_lag4",
+    "sentiment_lag5",
+    "sentiment_SMA3",
+    "sentiment_SMA7",
+    "SMA7",
+    "SMA20",
+    "RSI",
+    "MACD",
+    "MACD_Signal",
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Volume"
+  ],
+  "lookback": 30,
+  "stock_symbol": "AAL"
+}

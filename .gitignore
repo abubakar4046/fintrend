@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+FrontEnd/node_modules/
+backend/venv/
+venv/
+backend/__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Environment files
+.env
+.env.local
+.env.production
+backend/.env
+
+# Build outputs
+FrontEnd/build/
+dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Testing
+coverage/
+.pytest_cache/
+
+# Model files (too large for git)
+*.h5
+*.pkl
+*.joblib
+*.pt
+
+# Large datasets (too large for GitHub - keep local only)
+nasdaq_exteral_data.csv
+nasdaq_with_sentiment.csv
+FNSPID_Financial_News_Dataset-main/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Jupyter
+.ipynb_checkpoints/
+

@@ -1,0 +1,168 @@
+/* Export Report Component Styles */
+
+.export-report-container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-top: 24px;
+}
+
+.export-header {
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.export-header h3 {
+  font-size: 20px;
+  color: #1f2937;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.export-header p {
+  color: #6b7280;
+  font-size: 14px;
+  margin: 0;
+}
+
+.export-options {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.option-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.option-group label {
+  font-weight: 600;
+  color: #374151;
+  font-size: 14px;
+}
+
+.format-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.format-btn {
+  flex: 1;
+  min-width: 120px;
+  padding: 14px 24px;
+  background: #f3f4f6;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #374151;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.format-btn:hover {
+  background: #e5e7eb;
+  transform: translateY(-2px);
+}
+
+.format-btn.active {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  color: white;
+  border-color: #2563eb;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  background: #f9fafb;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.checkbox-label:hover {
+  background: #f3f4f6;
+}
+
+.checkbox-label input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.checkbox-label span {
+  font-size: 14px;
+  color: #374151;
+  font-weight: 500;
+}
+
+.export-info {
+  background: #eff6ff;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #3b82f6;
+}
+
+.export-info h4 {
+  font-size: 15px;
+  color: #1e40af;
+  margin: 0 0 12px 0;
+  font-weight: 600;
+}
+
+.export-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.export-info ul li {
+  font-size: 14px;
+  color: #1e40af;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.export-btn {
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.export-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+.export-btn:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .format-buttons {
+    flex-direction: column;
+  }
+
+  .format-btn {
+    min-width: 100%;
+  }
+}
