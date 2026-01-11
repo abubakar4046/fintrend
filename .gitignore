@@ -33,16 +33,16 @@ npm-debug.log*
 coverage/
 .pytest_cache/
 
-# Model files (too large for git)
-*.h5
+# Model files - keeping .h5 for deployment
+# *.h5  # Commented out - needed for deployment
 *.pkl
 *.joblib
 *.pt
 
-# Large datasets (too large for GitHub - keep local only)
+# Large datasets (local training data only)
 nasdaq_exteral_data.csv
 nasdaq_with_sentiment.csv
-FNSPID_Financial_News_Dataset-main/
+# FNSPID_Financial_News_Dataset-main/  # Commented out - needed for deployment
 
 # Temporary files
 *.tmp
